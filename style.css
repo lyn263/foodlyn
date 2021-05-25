@@ -1,0 +1,415 @@
+*{
+	padding:0;
+	margin:0;
+}
+	
+.header{
+	min-height:100vh;
+	width: 100%;
+	background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bahanbubur.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	
+}
+
+body{
+		font-family: Sans-serif;
+		color: maroon;
+		margin: 30px auto;
+		text-align: center;
+		margin:0;
+}
+
+.t-box h1{
+	font-family: lucida handwriting;
+}
+
+.row{
+	margin-top:5%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.box{ 
+		text-align:right;
+}
+
+.box ul{
+	
+		display:inline-flex;
+		list-style:none;
+}
+		
+.box ul li{
+		width :120px;
+		padding:15px;
+		margin: 15px auto;
+		text-align: center;
+		
+}
+		
+.box ul li a{ text-decoration:none;
+		color:white;}
+		
+.box ul li:hover{background-color: pink;}
+.box ul li a:hover{ color:black;}
+
+.active, box ul li:hover{
+	
+		background: orange;
+		border-radius:3px;
+}
+
+.submenu-1 { display:none;}
+.box ul li:hover .submenu-1
+{
+	display: block;
+	position: absolute;
+	background:orange;
+	margin-top: 15px;
+	margin-left:-15px;
+}
+.box ul li:hover .submenu-1 ul
+{
+	display:block;
+	margin:10px;
+}
+
+.box ul li:hover .submenu-1 ul li
+{
+	width:150px;
+	padding:10px;
+	border-bottom: 1px dotted black;
+	background:transparent;
+	border-radius:0;
+	text-align:left;
+}
+
+.t-box{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.t-box h1{
+	font-size: 62px;
+}
+
+.t-box p{
+	margin: 10px 0 40px;
+	font-size: 14px;
+}
+
+/*menu*/
+
+.menu{
+	width:80%;
+	margin:auto;
+	text-align:center;
+	padding-top:100px;
+}
+
+.menu h1{
+	font-size:36px;
+	font-weight: 600;
+	color:black;
+}
+
+.ex-btn{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	border:1px solid #fff;
+	padding:0px 0px 15px;
+	font-size:13px;
+	background:transparent;
+	position:relative;
+	cursor: pointer;
+}
+
+.ex-btn:hover{
+	border:1px solid #f44336;
+	background: #f44336;
+	transition:1s;
+}
+
+.pic{
+	margin:100px auto;
+	width: 80%;
+	background-image: url("cook knife.jpg");
+	background-position:center;
+	background-size:cover;
+	border-radius:10px;
+	text-align:center;
+	padding:100px 0;
+}
+
+.pic h1{
+	color:white;
+	font-family:bold;
+}
+
+.bio{
+	width:100%;
+	text-align:center;
+	padding:30px 0;
+}
+
+.bio h4{
+	margin-bottom:25px;
+	margin-top: 20px;
+	font-weight: 600;
+	color: black;
+}
+
+.bio p{
+	color:grey;
+	font-size:14px;
+	font-weight: 300;
+	line-height:22px;
+	padding:10px;
+}
+
+	/*-------MENU Why-------*/
+	
+.sub-header1 {
+	height:60vh;
+	width: 100%;
+	background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Eat_Right_for_Healthy_Living.jpg);
+	background-position:center;
+	background-size:30%;
+	position: relative;
+	text-align:center;
+	margin:0;
+}
+
+.submenu-2{
+	width:80%;
+	margin:auto;
+	padding-top:80px;
+	padding-bottom:50px;
+	font-size:15px;
+}
+
+.why{
+	flex-basis:48%;
+	padding: 30px 2 px;
+	color:black;
+	margin-top:50px;
+	font-size:15px;
+}
+.why h1{
+	padding-top:0;
+	font-family: arial;
+	
+}
+
+.why p{
+	padding:15px 0 25px;
+}
+
+.why img{
+	width:100%;
+	margin-top:0px;
+}
+.ex-btn{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	border:1px solid #fff;
+	padding:12px 34px;
+	font-size:13px;
+	background:transparent;
+	position:relative;
+	cursor: pointer;
+}
+
+.ex-btn:hover{
+	border:1px solid #f44336;
+	background: #f44336;
+	transition:1s;
+}
+	
+.red-btn{
+	border:1px solid #f44336;
+	background: transparent;
+	color:red;
+}
+
+.red-btn:hover{
+	color:#fff;
+}
+
+.row{
+	margin-top:10%;
+	display:flex;
+	justify-content:space-between;
+}
+	
+
+
+/*-------Method-------*/
+.sub-header2{
+	height:60vh;
+	width: 100%;
+	background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(backdrop2.jpg);
+	background-position:center;
+	background-size:70%;
+	position: absolute;
+	text-align:center;
+	margin:0;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+    padding: 4px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+	margin-left:200px;
+	margin-top:60px;
+    font: 22px Arial, sans-serif;
+}
+
+.sub-header2 caption{
+	margin top:100px;
+	color:black;
+}
+
+.sub-header2 table{
+	text-align: center;
+	margin:auto;
+	text-color:pink;
+}
+
+.sub-header2 p{
+	text-align:middle;
+	font-size:30px;
+}
+.sub-header2 h1{
+	font-size:50px;
+	color:black;
+}
+
+.sub-header2 h3{
+	font-size:50px;
+	color:black;
+}
+
+/*-------ABOUT-------*/
+
+.sub-header3{
+	height:900px;
+	width: 100%;
+	background-image: url("selfie 2.jpg");
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+}
+
+.rectangle {
+    width:500px;
+	height:300px;
+	border:0px solid #fff;
+	margin-left:150px;
+	background-color:#FAFAFA;
+	margin-top:50px;
+	
+}
+
+.comment{
+	border:1px solid #ccc;
+	margin: 50px 0;
+	padding: 10px 20px;
+}
+
+.comment h3{
+	text-align:left;
+}
+
+.com-form input, .com-form textarea{
+	width: 100%;
+	padding:10px;
+	margin:15px 0;
+	box-sizing: border-box;
+	border:none;
+	outline:none;
+	background: #f0f0f0;
+}
+
+.com-form button{
+	margin:10px 0;
+}
+
+/*-------FEEDBACK-------*/
+
+.sub-header4{
+	height:100%;
+	width: 100%;
+	background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Backdrop2.jpg);
+	background-position:center;
+	background-size:cover;
+	position:absolute;
+	font-color:black;
+}
+
+.sub-header4 f{
+	display: flex;
+	height:100vh;
+	justify-content: center;
+	align-items:center;
+	font-size:center;
+	font-color:black;
+	
+}
+
+.f{
+	margin-left:25%;
+	width:50%;
+	background:white;
+	padding:25px 30px;
+	border-radius:5px;
+	justify-content: center;
+	align-items:center;
+}
+
+/*contact*/
+
+
+.sub-header5{
+	height:60vh;
+	width: 100%;
+	background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(backdrop2.jpg);
+	background-position:center;
+	background-size:70%;
+	position: absolute;
+	text-align:center;
+	margin:0;
+}
+
+.location{
+	margin-top:100px;
+	width: 80%;
+	margin:auto;
+	padding: 80px 0;
+}
+
+.location iframe{
+	width:100%;
+	
+}
+	
+
+
+
+
+
